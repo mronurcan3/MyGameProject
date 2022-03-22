@@ -4,18 +4,14 @@ using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
-namespace Project.MVC
+namespace Project.UAPI
 {
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
         {
-            //CORS : Cross Origins Resource Server
-
             EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors(cors);
-
-
             // Web API configuration and services
 
             // Web API routes

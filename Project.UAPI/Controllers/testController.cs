@@ -1,4 +1,4 @@
-﻿using Project.MVC.DTOClasses;
+﻿using Project.UAPI.DTOClasses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Project.MVC.Controllers
+namespace Project.UAPI.Controllers
 {
     public class testController : ApiController
     {
@@ -26,5 +26,6 @@ namespace Project.MVC.Controllers
             return share;
 
         }
+
     }
 }
